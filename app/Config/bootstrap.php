@@ -116,8 +116,7 @@ try {
 }
 
 \Cake\Datasource\ConnectionManager::setConfig(
-    'default',
-    \Cake\Core\Configure::read('Datasources.default')
+    \Cake\Core\Configure::read('Datasources')
 );
 
 \Cake\Cache\Cache::setConfig(
